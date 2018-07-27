@@ -15,5 +15,5 @@ As the tutorial shows, what you will be able to do with this project:
 10. Fire up as many additional terminals as you like and have them write blocks to the first terminal
 11. Have the first terminal broadcast updated blocks to the new terminals
 
-#Reference
+# Reference
 1. [Code your own blockchain in less than 200 lines of Go](https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc)

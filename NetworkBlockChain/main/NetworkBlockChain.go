@@ -4,23 +4,24 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"time"
-	"github.com/joho/godotenv"
 	"log"
-	"github.com/davecgh/go-spew/spew"
 	"net"
 	"os"
 	"io"
 	"bufio"
 	"strconv"
 	"encoding/json"
+
+	"github.com/joho/godotenv"
+	"github.com/davecgh/go-spew/spew"
 )
 
 type NetworkBlock struct {
-	Index int
+	Index     int
 	Timestamp string
-	BPM int
-	Hash string
-	PrevHash string
+	BPM       int
+	Hash      string
+	PrevHash  string
 }
 
 var Blockchain []NetworkBlock

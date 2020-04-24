@@ -1,3 +1,5 @@
 /.idea/
 
+/pkg
+*.a
 *.DS_Store

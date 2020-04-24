@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26d01e36-a25c-4d3d-b6c8-b02ea572f666" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GoBlcokChain.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/LRUCache.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LRUCache/LRU.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LRUCache/LRU_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServiceBlockChain/main/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/HttpServiceBlockChain/main/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServiceBlockChain/main/HttpServiceBlockChain.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/HttpServiceBlockChain/main/HttpServiceBlockChain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkBlockChain/main/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/NetworkBlockChain/main/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkBlockChain/main/NetworkBlockChain.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/NetworkBlockChain/main/NetworkBlockChain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProofOfStake/main/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProofOfStake/main/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProofOfStake/main/ProofOfStake.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProofOfStake/main/ProofOfStake.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProofOfWork/main/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProofOfWork/main/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProofOfWork/main/ProofOfWork.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProofOfWork/main/ProofOfWork.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PvGaTL05Bc7KpAG10u4OOGhnmI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\goworkspace\GoBlcokChain\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\goworkspace\GoBlcokChain\LRUCache" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestLRU in LRUCache">
+    <configuration name="go build NetworkBlockChain.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoBlcokChain" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/NetworkBlockChain/main/NetworkBlockChain.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLRU in LRUCache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoBlcokChain" />
+      <working_directory value="$PROJECT_DIR$/src/LRUCache" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="LRUCache" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLRU$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestLRU in LRUCache" />
+        <item itemvalue="Go Build.go build NetworkBlockChain.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#GOPATH" timestamp="1584022686623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1584022686623" />
+    <state x="552" y="178" key="#GOROOT" timestamp="1584022486037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1584022486037" />
+    <state x="676" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587741889998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587741889998" />
+    <state x="472" y="110" key="CommitChangelistDialog2" timestamp="1587742010600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="472" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587742010600" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587741722221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587741722221" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1587741993946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587741993946" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1587741993946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587741993946" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1587741993946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587741993946" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1587741993946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587741993946" />
+    <state x="681" y="117" key="SettingsEditor" timestamp="1587741736214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="117" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587741736214" />
+  </component>
+</project>

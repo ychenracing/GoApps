@@ -23,7 +23,7 @@ func NewCache(cap int) *Cache {
 	return &Cache{cache: make(map[string]*Entry), capacity: cap}
 }
 
-var lock sync.Mutex
+var lock sync.RWMutex
 
 // 把元素放入缓存中，如果缓存满了，则删除最近最少使用的那个元素并返回，把新元素放入缓存中。
 // 如果缓存没满，把新元素放入缓存中并返回nil。

@@ -1,3 +1,11 @@
+# Kongjie Spider
+Concurrent spider using goroutines to crawl images from kongjie.com
+
+![kongjie spider](images/kongjie_spider.png)
+
+# LRU(least recently used) Cache
+A thread-safe LRU cache tool implemented by golang.
+
 # BlockChain in Golang
 
 A simple blockchain application implemented in Golang. Anyone can get started with Golang by doing this project, as well as by following the tutorial in reference below.

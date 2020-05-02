@@ -138,13 +138,7 @@ func parseAlbumUrl(nextUrl string) {
 // 进入空姐网用户的相册，开始一张一张的保存相册中的图片。
 // 解析出uid和picId，用于存储图片的名字
 func getImagesInAlbum() {
-	for {
-		imagePageUrl, more := <-imagePageUrlChan
-		if !more {
-			// 通道已关闭，结束goroutine
-			break
-		}
-
+	for imagePageUrl := range imagePageUrlChan {
 		// 从当前图片页面url中获取当前图片所属的用户id和图片id
 		uidPicIdMatch := uidPicIdPattern.FindStringSubmatch(imagePageUrl)
 		if len(uidPicIdMatch) <= 0 {

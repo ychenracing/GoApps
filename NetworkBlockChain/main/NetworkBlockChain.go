@@ -1,19 +1,19 @@
 package main
 
 import (
+	"bufio"
 	"crypto/sha256"
 	"encoding/hex"
-	"time"
+	"encoding/json"
+	"io"
 	"log"
 	"net"
 	"os"
-	"io"
-	"bufio"
 	"strconv"
-	"encoding/json"
+	"time"
 
-	"github.com/joho/godotenv"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/joho/godotenv"
 )
 
 type NetworkBlock struct {

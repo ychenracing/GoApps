@@ -3,13 +3,13 @@ package main
 import (
 	"crypto/sha256"
 	"encoding/hex"
-	"time"
-	"os"
-	"log"
-	"net/http"
 	"encoding/json"
 	"io"
+	"log"
+	"net/http"
+	"os"
 	"sync"
+	"time"
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/gorilla/mux"

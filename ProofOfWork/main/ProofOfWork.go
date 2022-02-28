@@ -1,22 +1,22 @@
 package main
 
 import (
-	"sync"
-	"os"
 	"log"
 	"net/http"
+	"os"
+	"sync"
 	"time"
 
-	"github.com/gorilla/mux"
-	"encoding/json"
-	"io"
-	"github.com/davecgh/go-spew/spew"
-	"strconv"
 	"crypto/sha256"
 	"encoding/hex"
-	"strings"
+	"encoding/json"
 	"fmt"
+	"github.com/davecgh/go-spew/spew"
+	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
+	"io"
+	"strconv"
+	"strings"
 )
 
 const difficulty = 2

@@ -1,23 +1,22 @@
 package main
 
 import (
-	"sync"
+	"bufio"
 	"crypto/sha256"
 	"encoding/hex"
-	"time"
-	"net"
-	"io"
-	"bufio"
-	"strconv"
-	"log"
-	"fmt"
 	"encoding/json"
-	"math/rand"
-	"os"
-	"github.com/joho/godotenv"
+	"fmt"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/joho/godotenv"
+	"io"
+	"log"
+	"math/rand"
+	"net"
+	"os"
+	"strconv"
+	"sync"
+	"time"
 )
-
 
 type Block struct {
 	Index     int
@@ -60,10 +59,10 @@ func calculateBlockHash(block Block) string {
 
 func generateBlock(oldBlock Block, BPM int, address string) (Block, error) {
 	result := &Block{
-		Index : oldBlock.Index + 1,
+		Index:     oldBlock.Index + 1,
 		Timestamp: time.Now().String(),
-		BPM: BPM,
-		PrevHash: oldBlock.Hash,
+		BPM:       BPM,
+		PrevHash:  oldBlock.Hash,
 	}
 	result.Hash = calculateBlockHash(*result)
 	result.Validator = address
@@ -97,7 +96,7 @@ func handleConn(conn net.Conn) {
 		// 服务器为每个客户端连接生成一个地址
 		address = calculateHash(t)
 
-		io.WriteString(conn, "\nYour address for stake: " + address)
+		io.WriteString(conn, "\nYour address for stake: "+address)
 
 		validators[address] = balance
 		fmt.Println(validators)
@@ -152,7 +151,7 @@ func handleConn(conn net.Conn) {
 }
 
 func isBlockValid(newBlock, oldBlock Block) bool {
-	if newBlock.Index != oldBlock.Index + 1 {
+	if newBlock.Index != oldBlock.Index+1 {
 		return false
 	}
 	if newBlock.PrevHash != oldBlock.Hash {
@@ -170,7 +169,7 @@ func pickWinner2() {
 	// 根据validators中质押的token数量，按照数量比率的概率选取其中一个
 	mutex.Lock()
 	tempValidators := validators
-	tempBlocksCopy := tempBlocks  // 质押了token并且通过验证了的block放入tempBlocks中
+	tempBlocksCopy := tempBlocks // 质押了token并且通过验证了的block放入tempBlocks中
 	mutex.Unlock()
 
 	if len(tempBlocksCopy) <= 0 {
@@ -188,7 +187,7 @@ func pickWinner2() {
 	var winnerAddr string
 	var winnerBlock Block
 	for addr, v := range tempValidators {
-		if winnerIndex >= stackCount && winnerIndex <= stackCount + v {
+		if winnerIndex >= stackCount && winnerIndex <= stackCount+v {
 			winnerAddr = addr
 			break
 		}
@@ -318,6 +317,3 @@ func main() {
 //	tempBlocks = []Block{}
 //	mutex.Unlock()
 //}
-
-
-

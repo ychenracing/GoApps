@@ -1,3 +1,5 @@
+
+
 # [Kongjie Spider](src/KongjieSpider/main/kongjie.go)
 A concurrent spider using goroutines to crawl images from kongjie.com.
 
@@ -17,6 +19,8 @@ Blog is here: [Go语言进阶之路：手撸一个LRU缓存](https://blog.csdn.n
 # BlockChain in Golang
 
 A simple blockchain application implemented in Golang. Anyone can get started with Golang by doing this project, as well as by following the tutorial in reference below.
+
+The blockchain examples require the `ADDR` environment variable to set the listening port.
 
 As the tutorial shows, what you will be able to do with this project:
 
